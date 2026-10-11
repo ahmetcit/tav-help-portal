@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI — TAV Mühendislik Yardım Portalı</title>
+  <meta name="description" content="Yapay zeka rehberi: Gemini Pro, Egnyte AI ürünleri ve DeepSeek API." />
+  <meta name="theme-color" content="#3a4456" />
+  <link rel="canonical" href="https://tav.engineering/tr/ai" />
+  <meta property="og:title" content="AI — TAV Mühendislik Yardım Portalı" />
+  <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/zensical.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../../assets/logos/TAV-Muhendislik-color-yatay.svg" alt="TAV Mühendislik — Yardım Portalı" />
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Menü" aria-expanded="false">☰</button>
+      <nav class="site-nav" id="site-nav">
+        <a href="../index.html">Ana sayfa</a>
+        <a href="email.html">E-Posta</a>
+        <a href="egnyte.html">Egnyte</a>
+        <a href="google-workspace.html">Google Workspace</a>
+        <a href="passwords.html">Parolalar</a>
+        <a href="identity.html">Kimlik</a>
+        <a href="ai.html" class="active" aria-current="page">AI</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Dil">
+        <a class="lang-opt" href="../../en/guides/ai.html" hreflang="en" lang="en">EN</a>
+        <span class="lang-opt active" aria-current="page">TR</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero compact">
+    <div class="wrap">
+      <h1>AI</h1>
+      <p class="lede">Gemini Pro, Egnyte AI ürünleri ve ileri kullanım.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <nav class="toc" aria-label="Bu sayfada">
+        <ol>
+          <li><a href="#s1">Gemini Pro</a></li>
+          <li><a href="#s2">Gemini Pro Functions</a></li>
+          <li><a href="#s3">Gemini Pro Prompting Kısayol Rehberi</a></li>
+          <li><a href="#s4">Egnyte AI</a></li>
+          <li><a href="#s5">İleri kullanım — DeepSeek API</a></li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2 id="s1">Gemini Pro</h2>
+      <div class="card">
+        <h3>Giriş</h3>
+        <p>Gemini Pro'ya <strong>@tav.engineering</strong> Google hesabınızla <a href="https://gemini.google.com" target="_blank" rel="noopener">gemini.google.com</a> adresinden giriş yapın.</p>
+        <p><a class="btn" href="https://gemini.google.com" target="_blank" rel="noopener">Gemini'yi Aç ↗</a></p>
+        <h3>Uygulamayı yükle</h3>
+        <p><span class="chip">Bilgisayar</span> Tarayıcı üzerinden <a href="https://gemini.google.com" target="_blank" rel="noopener">gemini.google.com</a> kullanın veya masaüstü uygulamasını yükleyin.</p>
+        <p><span class="chip">Cep telefonu</span> Uygulama mağazanızdan <strong>Google Gemini</strong> uygulamasını indirin:</p>
+        <div class="store-row" style="margin-top:0.5rem;">
+          <a class="store-badge" href="https://apps.apple.com/us/app/google-gemini/id6477489729" target="_blank" rel="noopener">App Store</a>
+          <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.google.android.apps.bard" target="_blank" rel="noopener">Google Play</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="section">
+    <div class="wrap">
+      <h2 id="s2">Gemini Pro Functions</h2>
+      <p style="color:var(--zen-muted);">Google Workspace'te Gemini işlevleri. Ayrıntılı tanıtım için bir karta tıklayın.</p>
+      <div class="topic-grid">
+
+        <div class="topic-card">
+          <a class="card-main" href="https://support.google.com/a/users/answer/15146419" target="_blank" rel="noopener">
+            <span class="icon">💬</span>
+            <h3>Gemini yan paneli</h3>
+            <p>Gmail, Docs, Sheets, Slides, Drive ve Chat'te doğrudan AI desteği alın.</p>
+            <span class="card-arrow">İncele ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=Lj7PNYNs73o" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://support.google.com/a/users/answer/14747862" target="_blank" rel="noopener">
+            <span class="icon">✍️</span>
+            <h3>Help me write</h3>
+            <p>Gmail ve Docs'ta profesyonel e-posta ve belgeleri hızla oluşturun.</p>
+            <span class="card-arrow">İncele ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=l479xga7QOY" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://support.google.com/meet/answer/14754931" target="_blank" rel="noopener">
+            <span class="icon">📝</span>
+            <h3>Take notes for me</h3>
+            <p>Meet notlarını otomatik tutarak sohbete odaklanın.</p>
+            <span class="card-arrow">İncele ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=fEcDnVDUvTY" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://workspace.google.com/products/vids/" target="_blank" rel="noopener">
+            <span class="icon">🎬</span>
+            <h3>Vids</h3>
+            <p>İş için videoları kolayca oluşturun ve birlikte çalışın.</p>
+            <span class="card-arrow">İncele ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=LzmdR0sYNDc" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-the-gemini-app-on-or-off#advanced" target="_blank" rel="noopener">
+            <span class="icon">✨</span>
+            <h3>Gemini uygulaması</h3>
+            <p>Günlük AI asistanınızla sohbet edin; beyin fırtınası yapın, planlayın ve Gems ile AI uzmanları oluşturun.</p>
+            <span class="card-arrow">İncele ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=n9j_Tbj7NHQ" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://notebook.google.com/" target="_blank" rel="noopener">
+            <span class="icon">📓</span>
+            <h3>Gemini Notebook</h3>
+            <p>Kaynaklarınızı yükleyin; Audio Overviews, Zihin Haritaları ve İnfografiklerle içgörü edinin.</p>
+            <span class="card-arrow">İncele ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=EgY9lP7VWng" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://workspace.google.com/studio/" target="_blank" rel="noopener">
+            <span class="icon">⚙️</span>
+            <h3>Workspace Studio</h3>
+            <p>Basit işlerden karmaşık süreçlere günlük işleri kod yazmadan otomatikleştirin.</p>
+            <span class="card-arrow">İncele ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=ZOAszesMBGc" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://support.google.com/docs/answer/16443280" target="_blank" rel="noopener">
+            <span class="icon">🎨</span>
+            <h3>Help me visualize</h3>
+            <p>Slides'ta infografik, görsel ve slaytlar oluşturun.</p>
+            <span class="card-arrow">İncele ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=NVmQijTGcUI" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://support.google.com/appsheet/answer/14699210" target="_blank" rel="noopener">
+            <span class="icon">📱</span>
+            <h3>Gemini in AppSheet</h3>
+            <p>Bir iş sürecini doğal dille anlatarak uygulama oluşturun.</p>
+            <span class="card-arrow">İncele ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=LLKAOI7jrRI" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<section class="section">
+    <div class="wrap">
+      <h2 id="s3">Gemini Pro Prompting Kısayol Rehberi — İş Verimliliği</h2>
+      <div class="card">
+        <div class="callout tip">
+          <h4>Pro İpucu</h4>
+          <p>Gemini'de <strong>@</strong> yazın; Google Drive dosyalarını, Google Docs belgelerini, Gmail konuşmalarını veya Google Slides'ları anında bağlam olarak ekleyin!</p>
+        </div>
+        <h3>💡 4 Parçalı Kazandıran Formül</h3>
+        <p>En iyi sonuç için isteminizi şu çerçeveyle kurun:</p>
+        <p><strong>İstem = Kişi/Rol (Persona) + Görev (Task) + Bağlam (Context) + Biçim (Format)</strong></p>
+        <div class="callout note">
+          <h4>Örnek</h4>
+          <p class="prompt" style="margin:0;">"Act as an Executive Assistant (Persona). Draft a 3-bullet executive summary (Task) based on @Q3_Strategy_Doc (Context). Format as a polite, concise Slack message (Format)."</p>
+        </div>
+        <h3>🚀 İş Akışına Göre Etkili İstemler</h3>
+        <h4>📧 1. E-posta &amp; İletişim (Gmail &amp; Bağımsız)</h4>
+        <p><strong>E-posta Dizilerini Özetle:</strong></p>
+        <p class="prompt">"Summarize the key decisions and open questions from this email thread into bullet points."</p>
+        <p><strong>Taslak &amp; Üslup Ayarı:</strong></p>
+        <p class="prompt">"Act as a Customer Success Manager. Draft a gentle follow-up email to [Client Name] regarding the pending contract renewal. Keep the tone warm, professional, and under 150 words."</p>
+        <h4>📄 2. Belge Oluşturma &amp; Sentez (Google Docs)</h4>
+        <p><strong>Drive Dosyalarından Taslak Oluşturma:</strong></p>
+        <p class="prompt">"Analyze @Product_Requirements.gdoc and draft a structured 1-page project charter including Goals, Key Stakeholders, Risks, and Next Steps."</p>
+        <p><strong>İçerik Parlatma &amp; Üslup Eşleştirme:</strong></p>
+        <p class="prompt">"Rewrite the following section to sound more executive, concise, and persuasive for a C-suite presentation."</p>
+        <h4>📊 3. Veri Analizi &amp; Proje Takibi (Google Sheets)</h4>
+        <p><strong>Yapılandırılmış Takip Tablosu:</strong></p>
+        <p class="prompt">"Create a table structure for a 6-week marketing launch plan. Include columns for Task Name, Owner, Due Date, Status (Not Started, In Progress, Complete), and Risk Level."</p>
+        <p><strong>Otomatik Sınıflandırma:</strong></p>
+        <p class="prompt">"Analyze the customer feedback entries below and categorize each into 'Feature Request', 'Bug Report', or 'General Praise'."</p>
+        <h4>🎨 4. Sunumlar &amp; Görseller (Google Slides)</h4>
+        <p><strong>Notlardan Slayt Yapısı:</strong></p>
+        <p class="prompt">"Based on @Meeting_Notes.gdoc, outline a 5-slide deck to pitch our Q4 strategy to executives. Include slide titles and key bullet points for each slide."</p>
+        <p><strong>Görsel Üretimi:</strong></p>
+        <p class="prompt">"Generate a clean, modern vector illustration of a team collaborating around a digital interactive dashboard, minimal corporate style."</p>
+        <h4>📝 5. Toplantı Notları &amp; Aksiyon Maddeleri (Google Meet)</h4>
+        <p><strong>Toplantı Sonrası Özet:</strong></p>
+        <p class="prompt">"Extract all action items, owners, and deadlines mentioned in @Transcript_Q3_Sync.gdoc and group them by department."</p>
+      </div>
+    </div>
+  </section>
+
+    <section class="section">
+    <div class="wrap">
+      <h2 id="s4">Egnyte AI</h2>
+      <p style="color:var(--zen-muted);">Egnyte'nin yapay zeka işlevleri. Ayrıntılı tanıtım için bir karta tıklayın.</p>
+      <div class="topic-grid">
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/ai-search" target="_blank" rel="noopener">
+          <span class="icon">🔍</span>
+          <h3>AI Search</h3>
+          <p>Doğal dil, görsel arama, OCR ve akıllı filtrelerle dosyaları anında bulun.</p>
+          <span class="card-arrow">İncele ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/ai-assistant" target="_blank" rel="noopener">
+          <span class="icon">💬</span>
+          <h3>AI Assistant</h3>
+          <p>Güvenli içgörüler, içerik iş akışları ve dosya yönetimi için bağlam farkındalıklı yanıtlar.</p>
+          <span class="card-arrow">İncele ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/agent-builder" target="_blank" rel="noopener">
+          <span class="icon">🤖</span>
+          <h3>Agent Builder</h3>
+          <p>Kod yazmadan kendi içeriğinizle çalışan AI ajanları oluşturun, otomatikleştirin ve dağıtın.</p>
+          <span class="card-arrow">İncele ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/ai-workflow" target="_blank" rel="noopener">
+          <span class="icon">⚙️</span>
+          <h3>AI Workflow</h3>
+          <p>Belge işleme iş akışlarını otomatikleştirerek manuel işleri azaltın ve süreçleri hızlandırın.</p>
+          <span class="card-arrow">İncele ↗</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2 id="s5">İleri kullanım — DeepSeek API</h2>
+      <div class="card">
+        <p>İleri düzey kullanımlar için doğrudan <strong>AI agent harness</strong> ile çalışırken <strong>DeepSeek API</strong> talep edilebilir.</p>
+        <p style="color:var(--zen-muted);">Erişim ve anahtar talepleri için BT ile iletişime geçin.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-name">TAV Mühendislik</p>
+          <p>Yardım Portalı</p>
+        </div>
+        <div>
+          <h4>BT Destek</h4>
+          <p>Giriş, parola veya erişim yardımı için BT yardım masasıyla iletişime geçin.</p>
+          <p>Telefon: <a href="tel:+902124915861">+90 212 491 58 61</a> &middot; E-posta: <a href="mailto:support@tav.engineering">support@tav.engineering</a></p>
+          <p>&#304;stinye Mah. Balabandere Cad. Seyit Ali &Ccedil;avu&#351; Sk. Hilpark Suites Sitesi No:10 Sar&#305;yer / &#304;stanbul, T&uuml;rkiye</p>
+          <p><a href="https://www.tav.engineering" target="_blank" rel="noopener">www.tav.engineering</a></p>
+        </div>
+      </div>
+      <p class="footer-bottom">TAV Mühendislik Yardım Portalı &middot; tav.engineering</p>
+    </div>
+  </footer>
+
+  <script src="../../js/zensical.js"></script>
+</body>
+</html>

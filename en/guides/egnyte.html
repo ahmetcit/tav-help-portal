@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TAVcloud Egnyte — TAV Engineering Help Portal</title>
+  <meta name="description" content="TAVcloud Egnyte guide: sign in, folder structure, web interface, desktop app." />
+  <meta name="theme-color" content="#3a4456" />
+  <link rel="canonical" href="https://tav.engineering/egnyte" />
+  <meta property="og:title" content="TAVcloud Egnyte — TAV Engineering Help Portal" />
+  <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/zensical.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../../assets/logos/TAV-Engineering-color-yatay.svg" alt="TAV Engineering — Help Portal" />
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
+      <nav class="site-nav" id="site-nav">
+        <a href="../index.html">Home</a>
+        <a href="email.html">Email</a>
+        <a href="egnyte.html" class="active" aria-current="page">Egnyte</a>
+        <a href="google-workspace.html">Google Workspace</a>
+        <a href="passwords.html">Passwords</a>
+        <a href="identity.html">Identity</a>
+        <a href="ai.html">AI</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <span class="lang-opt active" aria-current="page">EN</span>
+        <a class="lang-opt" href="../../tr/guides/egnyte.html" hreflang="tr" lang="tr">TR</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero compact">
+    <div class="wrap">
+      <h1>TAVcloud Egnyte</h1>
+      <p class="lede">Store, share and collaborate on content.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <nav class="toc" aria-label="On this page">
+        <ol>
+          <li><a href="#s1">Access</a></li>
+          <li><a href="#s2">Folder structure</a></li>
+          <li><a href="#s3">Web interface (Web UI)</a></li>
+          <li><a href="#s4">Egnyte Desktop App (Windows)</a></li>
+          <li><a href="#s7">Egnyte Features</a></li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2 id="s1">Access</h2>
+      <div class="card">
+        <p>Sign in to Egnyte at <a href="https://tavcloud.egnyte.com/app/index.do" target="_blank" rel="noopener">tavcloud.egnyte.com</a> with your <strong>Google Workspace</strong> account.</p>
+        <p><a class="btn" href="https://tavcloud.egnyte.com/app/index.do" target="_blank" rel="noopener">Open Egnyte ↗</a></p>
+        <p>Step-by-step sign-in and MFA (Google Authenticator) setup: <a href="egnyte-signin.html">Egnyte sign-in &amp; MFA guide →</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2 id="s2">Folder structure</h2>
+      <div class="card">
+        <p style="color:var(--zen-muted);">The shared-area folder tree is below. Click a name to expand/collapse. Folder owners are noted next to each section (details will be maintained by IT).</p>
+        <ul class="tree">
+  <li>
+    <details open>
+      <summary>Shared</summary>
+      <ul>
+        <li>
+          00 TAVC HQ
+        </li>
+        <li>
+          <details>
+            <summary>00_TAVC_HQ <span class="owner">TAV Construction HQ</span></summary>
+            <ul>
+              <li>Accounting Affairs</li>
+              <li>Administrative Affairs</li>
+              <li>Architectural Design</li>
+              <li>Business Development</li>
+              <li>Contracts</li>
+              <li>Corporate Communications</li>
+              <li>Correspondences</li>
+              <li>Domestic Projects and Logistic</li>
+              <li>Electrical & Electronic Systems</li>
+              <li>ElectroMech</li>
+              <li>Finance</li>
+              <li>HR</li>
+              <li>HSE</li>
+              <li>IT</li>
+              <li>Integrated Solutions</li>
+              <li>Internal Audit</li>
+              <li>Legal</li>
+              <li>Mechanical Works</li>
+              <li>Personnel</li>
+              <li>Planning CC</li>
+              <li>Quality</li>
+              <li>Quality_HSE Systems</li>
+              <li>Structural Design</li>
+              <li>Tender</li>
+              <li>Tender Projects</li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          <details>
+            <summary>00_TAVE_HQ <span class="owner">TAV Engineering HQ</span></summary>
+            <ul>
+              <li>
+                <details>
+                  <summary>Accounting <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>Accounting</li>
+                    <li>Reporting</li>
+                    <li>Staff_Files</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Administrative <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>00_Dokumanlar</li>
+                    <li>01_Raporlar</li>
+                    <li>02_Risk</li>
+                    <li>03_Yonetim_Raporlari</li>
+                    <li>04_Zimmet_Formlari</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Business_Development <span class="owner">Owner: —</span></summary>
+                  <ul>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Contracts <span class="owner">Owner: —</span></summary>
+                  <ul>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Corporate_Communication <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>00_Arsiv</li>
+                    <li>01_Basin</li>
+                    <li>02_Foto_Video</li>
+                    <li>03_Kurumsal</li>
+                    <li>04_Kreatif</li>
+                    <li>05_Roportaj</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Correspondence <span class="owner">Owner: —</span></summary>
+                  <ul>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Design <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>Architectural</li>
+                    <li>Electrical_Electronic</li>
+                    <li>Electro_Mechanical</li>
+                    <li>Internal</li>
+                    <li>Mechanical</li>
+                    <li>Structural</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Finance <span class="owner">Owner: —</span></summary>
+                  <ul>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>General <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>00_TAV_Logos</li>
+                    <li>01_Document_Templates</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>HR <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>00_Yonetim_Sistemleri</li>
+                    <li>01_Personel</li>
+                    <li>02_Egitim</li>
+                    <li>03_Raporlamalar</li>
+                    <li>04_CVs</li>
+                    <li>05_Butce</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>HSE <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>00_Internal</li>
+                    <li>01_Documents</li>
+                    <li>02_Objectives_KPIs</li>
+                    <li>03_Management_Reviews</li>
+                    <li>04_Audits</li>
+                    <li>05_Risk_Impact</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>IT <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>Personel_Listeleri</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Internal_Audit <span class="owner">Owner: —</span></summary>
+                  <ul>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Legal <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>00_Documents</li>
+                    <li>01_Legislation</li>
+                    <li>02_Reports</li>
+                    <li>03_Compliance</li>
+                    <li>04_Contracts</li>
+                    <li>05_Agreements</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Personel <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>Arsiv</li>
+                    <li>Maliyet_Raporlari</li>
+                    <li>Personel</li>
+                    <li>Resmi_Belgeler</li>
+                    <li>Risk</li>
+                    <li>Taseronlar</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Planning_CC <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>00_TAV</li>
+                    <li>01_Consolidated_Budget_CBR</li>
+                    <li>02_Consolidated_Forecast_CIF</li>
+                    <li>03_Project_Budget_PBR</li>
+                    <li>04_Project_Cards</li>
+                    <li>05_Consolidated_Progress_CPR</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Quality <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>00_QMS_Documents</li>
+                    <li>01_Quality_Objectives</li>
+                    <li>02_Management_Reviews</li>
+                    <li>03_Employer_Feedback</li>
+                    <li>04_Master_Document_List</li>
+                    <li>05_External_Docs</li>
+                  </ul>
+                </details>
+              </li>
+              <li>
+                <details>
+                  <summary>Tender <span class="owner">Owner: —</span></summary>
+                  <ul>
+                    <li>00_Internal</li>
+                    <li>01_Shared</li>
+                  </ul>
+                </details>
+              </li>
+            </ul>
+          </details>
+        </li>
+        <li>
+          01 TAVC PROJECTS
+        </li>
+        <li>
+          01_TAVE_Projects
+        </li>
+        <li>
+          02_TAVC_Branches
+        </li>
+        <li>
+          03_TAV_Yatırım
+        </li>
+        <li>
+          04_TAV_Park
+        </li>
+        <li>
+          05 TAV Engineering HQ
+        </li>
+        <li>
+          07_TAV_Contracting_LLC
+        </li>
+        <li>
+          08 TAV Technic HQ
+        </li>
+        <li>
+          09 TAV Technic Branches
+        </li>
+        <li>
+          20 Others
+        </li>
+        <li>
+          20_TAV_Sera_Insaat
+        </li>
+        <li>
+          21_TAV_Sera_Int
+        </li>
+        <li>
+          80 Misc
+        </li>
+        <li>
+          90 Backups
+        </li>
+        <li>
+          Egnyte Audit Reports
+        </li>
+        <li>
+          Egnyte Reports
+        </li>
+        <li>
+          Egnyte Templates
+        </li>
+        <li>
+          LIBYADEMO
+        </li>
+        <li>
+          Migrations
+        </li>
+      </ul>
+    </details>
+  </li>
+</ul>
+      </div>
+    </div>
+  </section>
+
+    <section class="section">
+    <div class="wrap">
+      <h2 id="s3">Web interface (Web UI)</h2>
+      <div class="card">
+        <p>The Egnyte web interface has three main areas: the <strong>main menu</strong> on the left, the <strong>folder tree</strong> beside it, and the <strong>file/folder list</strong> in the middle — similar to Windows Explorer. Panels can be collapsed and expanded.</p>
+
+        <h3>Home dashboard</h3>
+        <p>On login you land on a dashboard with four widgets: <strong>Bookmarks</strong>, <strong>Recent Files</strong>, <strong>Links</strong> and <strong>Project Folders</strong>.</p>
+        <figure class="shot">
+          <img src="../../assets/egnyte-ui/home.png" alt="Egnyte home dashboard" />
+          <figcaption>Home dashboard — bookmarks, recent files, links and project folders.</figcaption>
+        </figure>
+
+        <h3>Navigation</h3>
+        <p>Select <strong>Files</strong> from the main menu and click through the folder tree. Navigate back via the folder path, or make a frequently used folder your home screen (<strong>More → Set as default view</strong>).</p>
+        <figure class="shot">
+          <img src="../../assets/egnyte-ui/nav-tree.png" alt="Egnyte folder tree" />
+          <figcaption>Navigating with the folder tree.</figcaption>
+        </figure>
+
+        <h3>File actions</h3>
+        <p>Select an item and right-click, or use the toolbar: <strong>Create</strong>, <strong>Upload</strong>, <strong>Share</strong>, <strong>Download</strong> and <strong>More</strong> (Preview, Versions, Details, Lock, Rename, Move, Delete…).</p>
+        <figure class="shot">
+          <img src="../../assets/egnyte-ui/file-list.png" alt="Egnyte file list and context menu" />
+          <figcaption>File list and right-click menu.</figcaption>
+        </figure>
+
+        <h3>Search</h3>
+        <p>Use the search box top-right with filters such as folder scope, word matching, item type and time frame.</p>
+        <figure class="shot">
+          <img src="../../assets/egnyte-ui/search.png" alt="Egnyte search" />
+          <figcaption>Advanced search options.</figcaption>
+        </figure>
+
+        <h3>Preview</h3>
+        <p>Click a file name to preview it in the browser; use the arrows to move between files in the same folder.</p>
+        <figure class="shot">
+          <img src="../../assets/egnyte-ui/preview.png" alt="Egnyte file preview" />
+          <figcaption>File preview.</figcaption>
+        </figure>
+
+        <h3>Upload and download</h3>
+        <ul>
+          <li><strong>Upload:</strong> via "Upload" or drag and drop.</li>
+          <li><strong>Download:</strong> select an item and choose "Download" (multiple items arrive as a zip).</li>
+          <li><strong>Share:</strong> use "Share" to create links for people outside the company.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="section">
+    <div class="wrap">
+      <h2 id="s4">Egnyte Desktop App (Windows)</h2>
+      <div class="card">
+        <p>The desktop app lets you access all cloud files like a <strong>network drive</strong> on your computer, without using local space. You can also <strong>sync selected folders for offline access</strong>.</p>
+        <p><a class="btn" href="https://tavcloud.egnyte.com/app/index.do" target="_blank" rel="noopener">Open Egnyte to download ↗</a></p>
+        <h3>How to download</h3>
+        <ol>
+          <li>In the Egnyte web interface go to <strong>Apps &amp; Integrations → Egnyte Apps</strong>.</li>
+          <li>Click <strong>Download</strong> for <strong>Egnyte Desktop App for Windows</strong>.</li>
+          <li>Run the installer and follow the steps.</li>
+          <li>Sign in with your Egnyte credentials; the app appears as a network drive.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+      <section class="section">
+    <div class="wrap">
+      <h2 id="s7">Egnyte Features</h2>
+      <p style="color:var(--zen-muted);">Detailed tours of Egnyte features. Click a card.</p>
+      <div class="topic-grid">
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/egnyte-desktop-app" target="_blank" rel="noopener">
+          <span class="icon">🖥️</span>
+          <h3>Egnyte Desktop App</h3>
+          <p>Sync files across devices with offline access and automatic synchronization.</p>
+          <span class="card-arrow">Learn more ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/aec-guides" target="_blank" rel="noopener">
+          <span class="icon">🏗️</span>
+          <h3>AEC Guides</h3>
+          <p>Project collaboration and document management for AEC.</p>
+          <span class="card-arrow">Learn more ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/data-sharing-controls" target="_blank" rel="noopener">
+          <span class="icon">🔐</span>
+          <h3>Data Sharing Controls</h3>
+          <p>Advanced sharing controls, expiration dates and permission management.</p>
+          <span class="card-arrow">Learn more ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/smart-tags" target="_blank" rel="noopener">
+          <span class="icon">🏷️</span>
+          <h3>Smart Tags</h3>
+          <p>AI-generated tags automatically classify content and improve discoverability.</p>
+          <span class="card-arrow">Learn more ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/contract-analyst" target="_blank" rel="noopener">
+          <span class="icon">📄</span>
+          <h3>Contract Analyst</h3>
+          <p>Analyze contracts with secure content management and automated insights.</p>
+          <span class="card-arrow">Learn more ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/bim-file-collaboration" target="_blank" rel="noopener">
+          <span class="icon">📐</span>
+          <h3>BIM File Collaboration</h3>
+          <p>Real-time BIM file collaboration with secure coordination.</p>
+          <span class="card-arrow">Learn more ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/pdf-esignature" target="_blank" rel="noopener">
+          <span class="icon">✍️</span>
+          <h3>PDF e-Signature</h3>
+          <p>Sign and manage PDF documents electronically.</p>
+          <span class="card-arrow">Learn more ↗</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-name">TAV Engineering</p>
+          <p>Help Portal</p>
+        </div>
+        <div>
+          <h4>IT Support</h4>
+          <p>For login, password or access help, contact the IT helpdesk.</p>
+          <p>Phone: <a href="tel:+902124915861">+90 212 491 58 61</a> &middot; Email: <a href="mailto:support@tav.engineering">support@tav.engineering</a></p>
+          <p>&#304;stinye Mah. Balabandere Cad. Seyit Ali &Ccedil;avu&#351; Sk. Hilpark Suites Sitesi No:10 Sar&#305;yer / Istanbul, T&uuml;rkiye</p>
+          <p><a href="https://www.tav.engineering" target="_blank" rel="noopener">www.tav.engineering</a></p>
+        </div>
+      </div>
+      <p class="footer-bottom">TAV Engineering Help Portal &middot; tav.engineering</p>
+    </div>
+  </footer>
+
+  <script src="../../js/zensical.js"></script>
+</body>
+</html>

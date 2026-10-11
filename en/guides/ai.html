@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI — TAV Engineering Help Portal</title>
+  <meta name="description" content="AI guide: Gemini Pro, Egnyte AI products and the DeepSeek API." />
+  <meta name="theme-color" content="#3a4456" />
+  <link rel="canonical" href="https://tav.engineering/ai" />
+  <meta property="og:title" content="AI — TAV Engineering Help Portal" />
+  <link rel="icon" type="image/svg+xml" href="../../assets/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../css/zensical.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="../index.html">
+        <img class="brand-logo" src="../../assets/logos/TAV-Engineering-color-yatay.svg" alt="TAV Engineering — Help Portal" />
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Menu" aria-expanded="false">☰</button>
+      <nav class="site-nav" id="site-nav">
+        <a href="../index.html">Home</a>
+        <a href="email.html">Email</a>
+        <a href="egnyte.html">Egnyte</a>
+        <a href="google-workspace.html">Google Workspace</a>
+        <a href="passwords.html">Passwords</a>
+        <a href="identity.html">Identity</a>
+        <a href="ai.html" class="active" aria-current="page">AI</a>
+      </nav>
+      <div class="lang-switch" role="group" aria-label="Language">
+        <span class="lang-opt active" aria-current="page">EN</span>
+        <a class="lang-opt" href="../../tr/guides/ai.html" hreflang="tr" lang="tr">TR</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero compact">
+    <div class="wrap">
+      <h1>AI</h1>
+      <p class="lede">Gemini Pro, Egnyte AI products and advanced usage.</p>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0;">
+    <div class="wrap">
+      <nav class="toc" aria-label="On this page">
+        <ol>
+          <li><a href="#s1">Gemini Pro</a></li>
+          <li><a href="#s2">Gemini Pro Functions</a></li>
+          <li><a href="#s3">Gemini Pro Prompting Cheat Sheet</a></li>
+          <li><a href="#s4">Egnyte AI</a></li>
+          <li><a href="#s5">Advanced — DeepSeek API</a></li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2 id="s1">Gemini Pro</h2>
+      <div class="card">
+        <h3>Sign in</h3>
+        <p>Sign in to Gemini Pro with your <strong>@tav.engineering</strong> Google account at <a href="https://gemini.google.com" target="_blank" rel="noopener">gemini.google.com</a>.</p>
+        <p><a class="btn" href="https://gemini.google.com" target="_blank" rel="noopener">Open Gemini ↗</a></p>
+        <h3>Install the app</h3>
+        <p><span class="chip">Computer</span> Use <a href="https://gemini.google.com" target="_blank" rel="noopener">gemini.google.com</a> in your browser, or install the desktop app.</p>
+        <p><span class="chip">Mobile</span> Download the <strong>Google Gemini</strong> app from your app store:</p>
+        <div class="store-row" style="margin-top:0.5rem;">
+          <a class="store-badge" href="https://apps.apple.com/us/app/google-gemini/id6477489729" target="_blank" rel="noopener">App Store</a>
+          <a class="store-badge" href="https://play.google.com/store/apps/details?id=com.google.android.apps.bard" target="_blank" rel="noopener">Google Play</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <section class="section">
+    <div class="wrap">
+      <h2 id="s2">Gemini Pro Functions</h2>
+      <p style="color:var(--zen-muted);">Gemini functions in Google Workspace. Click a card for the detailed tour.</p>
+      <div class="topic-grid">
+
+        <div class="topic-card">
+          <a class="card-main" href="https://support.google.com/a/users/answer/15146419" target="_blank" rel="noopener">
+            <span class="icon">💬</span>
+            <h3>Gemini in the side panel</h3>
+            <p>Get AI assistance directly in Gmail, Docs, Sheets, Slides, Drive and Chat.</p>
+            <span class="card-arrow">Learn more ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=Lj7PNYNs73o" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://support.google.com/a/users/answer/14747862" target="_blank" rel="noopener">
+            <span class="icon">✍️</span>
+            <h3>Help me write</h3>
+            <p>Quickly compose professional emails and documents in Gmail and Docs.</p>
+            <span class="card-arrow">Learn more ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=l479xga7QOY" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://support.google.com/meet/answer/14754931" target="_blank" rel="noopener">
+            <span class="icon">📝</span>
+            <h3>Take notes for me</h3>
+            <p>Automatically capture Meet notes so you can focus on the conversation.</p>
+            <span class="card-arrow">Learn more ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=fEcDnVDUvTY" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://workspace.google.com/products/vids/" target="_blank" rel="noopener">
+            <span class="icon">🎬</span>
+            <h3>Vids</h3>
+            <p>Easily create and collaborate on videos for work.</p>
+            <span class="card-arrow">Learn more ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=LzmdR0sYNDc" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://knowledge.workspace.google.com/admin/generative-ai/gemini-app/turn-the-gemini-app-on-or-off#advanced" target="_blank" rel="noopener">
+            <span class="icon">✨</span>
+            <h3>Gemini app</h3>
+            <p>Chat with your everyday AI assistant to brainstorm, plan and tackle tasks; build AI experts with Gems.</p>
+            <span class="card-arrow">Learn more ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=n9j_Tbj7NHQ" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://notebook.google.com/" target="_blank" rel="noopener">
+            <span class="icon">📓</span>
+            <h3>Gemini Notebook</h3>
+            <p>Upload sources and get instant insights with Audio Overviews, Mind Maps and Infographics.</p>
+            <span class="card-arrow">Learn more ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=EgY9lP7VWng" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://workspace.google.com/studio/" target="_blank" rel="noopener">
+            <span class="icon">⚙️</span>
+            <h3>Workspace Studio</h3>
+            <p>Automate everyday work from simple tasks to complex processes — no coding.</p>
+            <span class="card-arrow">Learn more ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=ZOAszesMBGc" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://support.google.com/docs/answer/16443280" target="_blank" rel="noopener">
+            <span class="icon">🎨</span>
+            <h3>Help me visualize</h3>
+            <p>Create infographics, images and slides in Slides.</p>
+            <span class="card-arrow">Learn more ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=NVmQijTGcUI" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+        <div class="topic-card">
+          <a class="card-main" href="https://support.google.com/appsheet/answer/14699210" target="_blank" rel="noopener">
+            <span class="icon">📱</span>
+            <h3>Gemini in AppSheet</h3>
+            <p>Build apps by describing a business process in natural language.</p>
+            <span class="card-arrow">Learn more ↗</span>
+          </a>
+          <a class="card-video" href="https://www.youtube.com/watch?v=LLKAOI7jrRI" target="_blank" rel="noopener">🎬 Video ↗</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+<section class="section">
+    <div class="wrap">
+      <h2 id="s3">Gemini Pro Prompting Cheat Sheet for Business Productivity</h2>
+      <div class="card">
+        <div class="callout tip">
+          <h4>Pro Tip</h4>
+          <p>Type <strong>@</strong> in Gemini to instantly pull in Google Drive files, Google Docs, Gmail threads, or Google Slides for context!</p>
+        </div>
+        <h3>💡 The 4-Part Winning Formula</h3>
+        <p>To get the best results from Gemini, build your prompt using this quick framework:</p>
+        <p><strong>Prompt = Persona + Task + Context + Format</strong></p>
+        <div class="callout note">
+          <h4>Example</h4>
+          <p class="prompt" style="margin:0;">"Act as an Executive Assistant (Persona). Draft a 3-bullet executive summary (Task) based on @Q3_Strategy_Doc (Context). Format as a polite, concise Slack message (Format)."</p>
+        </div>
+        <h3>🚀 High-Impact Prompts by Workflow</h3>
+        <h4>📧 1. Email &amp; Communication (Gmail &amp; Standalone)</h4>
+        <p><strong>Summarize Email Threads:</strong></p>
+        <p class="prompt">"Summarize the key decisions and open questions from this email thread into bullet points."</p>
+        <p><strong>Drafting &amp; Tone Adjustment:</strong></p>
+        <p class="prompt">"Act as a Customer Success Manager. Draft a gentle follow-up email to [Client Name] regarding the pending contract renewal. Keep the tone warm, professional, and under 150 words."</p>
+        <h4>📄 2. Document Creation &amp; Synthesis (Google Docs)</h4>
+        <p><strong>Outline Generation from Drive Files:</strong></p>
+        <p class="prompt">"Analyze @Product_Requirements.gdoc and draft a structured 1-page project charter including Goals, Key Stakeholders, Risks, and Next Steps."</p>
+        <p><strong>Content Polishing &amp; Tone Matching:</strong></p>
+        <p class="prompt">"Rewrite the following section to sound more executive, concise, and persuasive for a C-suite presentation."</p>
+        <h4>📊 3. Data Analysis &amp; Project Tracking (Google Sheets)</h4>
+        <p><strong>Structured Tracker Setup:</strong></p>
+        <p class="prompt">"Create a table structure for a 6-week marketing launch plan. Include columns for Task Name, Owner, Due Date, Status (Not Started, In Progress, Complete), and Risk Level."</p>
+        <p><strong>Automated Categorization:</strong></p>
+        <p class="prompt">"Analyze the customer feedback entries below and categorize each into 'Feature Request', 'Bug Report', or 'General Praise'."</p>
+        <h4>🎨 4. Presentations &amp; Visuals (Google Slides)</h4>
+        <p><strong>Slide Structure from Notes:</strong></p>
+        <p class="prompt">"Based on @Meeting_Notes.gdoc, outline a 5-slide deck to pitch our Q4 strategy to executives. Include slide titles and key bullet points for each slide."</p>
+        <p><strong>Visual Imagery Generation:</strong></p>
+        <p class="prompt">"Generate a clean, modern vector illustration of a team collaborating around a digital interactive dashboard, minimal corporate style."</p>
+        <h4>📝 5. Meeting Notes &amp; Action Items (Google Meet)</h4>
+        <p><strong>Post-Meeting Recap:</strong></p>
+        <p class="prompt">"Extract all action items, owners, and deadlines mentioned in @Transcript_Q3_Sync.gdoc and group them by department."</p>
+      </div>
+    </div>
+  </section>
+
+    <section class="section">
+    <div class="wrap">
+      <h2 id="s4">Egnyte AI</h2>
+      <p style="color:var(--zen-muted);">Egnyte's AI function. Click a card for the detailed tour.</p>
+      <div class="topic-grid">
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/ai-search" target="_blank" rel="noopener">
+          <span class="icon">🔍</span>
+          <h3>AI Search</h3>
+          <p>Find files instantly with natural language, visual search, OCR and smart filters.</p>
+          <span class="card-arrow">Learn more ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/ai-assistant" target="_blank" rel="noopener">
+          <span class="icon">💬</span>
+          <h3>AI Assistant</h3>
+          <p>Context-aware answers for secure insights, content workflows and file governance.</p>
+          <span class="card-arrow">Learn more ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/agent-builder" target="_blank" rel="noopener">
+          <span class="icon">🤖</span>
+          <h3>Agent Builder</h3>
+          <p>Build, configure and deploy AI agents on your own content — no code required.</p>
+          <span class="card-arrow">Learn more ↗</span>
+        </a>
+
+        <a class="topic-card" href="https://www.egnyte.com/product-tour/ai-workflow" target="_blank" rel="noopener">
+          <span class="icon">⚙️</span>
+          <h3>AI Workflow</h3>
+          <p>Automate complex document-processing workflows to reduce manual tasks and speed up operations.</p>
+          <span class="card-arrow">Learn more ↗</span>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="wrap">
+      <h2 id="s5">Advanced — DeepSeek API</h2>
+      <div class="card">
+        <p>For advanced use, a <strong>DeepSeek API</strong> key can be requested when working directly with an <strong>AI agent harness</strong>.</p>
+        <p style="color:var(--zen-muted);">Contact IT for access and key requests.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div>
+          <p class="footer-name">TAV Engineering</p>
+          <p>Help Portal</p>
+        </div>
+        <div>
+          <h4>IT Support</h4>
+          <p>For login, password or access help, contact the IT helpdesk.</p>
+          <p>Phone: <a href="tel:+902124915861">+90 212 491 58 61</a> &middot; Email: <a href="mailto:support@tav.engineering">support@tav.engineering</a></p>
+          <p>&#304;stinye Mah. Balabandere Cad. Seyit Ali &Ccedil;avu&#351; Sk. Hilpark Suites Sitesi No:10 Sar&#305;yer / Istanbul, T&uuml;rkiye</p>
+          <p><a href="https://www.tav.engineering" target="_blank" rel="noopener">www.tav.engineering</a></p>
+        </div>
+      </div>
+      <p class="footer-bottom">TAV Engineering Help Portal &middot; tav.engineering</p>
+    </div>
+  </footer>
+
+  <script src="../../js/zensical.js"></script>
+</body>
+</html>
